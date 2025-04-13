@@ -32,3 +32,26 @@ p:first-of-type::first-letter {
   font-weight: bold;
   line-height: 1;
 }
+
+.quote {
+  text-align: justify;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 2;
+  margin: 1em 2em 1em 4em;
+  text-transform: uppercase;
+}
+
+.quote::before {
+  content: "“";
+  font-size: 3em;
+  vertical-align: text-bottom;
+  line-height: .4em;
+}
+
+.quote::after {
+  content: "”";
+  font-size: 3em;
+  vertical-align: text-top;
+  line-height: 1.2em;
+}
