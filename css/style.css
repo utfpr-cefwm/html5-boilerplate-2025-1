@@ -55,3 +55,12 @@ p:first-of-type::first-letter {
   vertical-align: text-top;
   line-height: 1.2em;
 }
+
+#titulo-principal {
+  text-transform: uppercase;
+}
+
+[id="titulo-principal"] {
+  text-shadow: .1em .1em .1em #8000086e;
+  color: #1b1919;
+}
