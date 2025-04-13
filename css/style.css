@@ -12,14 +12,23 @@ h1 {
   background-color: #efe9f3;
 }
 
-p {
+h2 {
+  margin: 2em 0 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+section {
   color: #0c2a44;
+}
+
+p {
   line-height: 1.5;
 }
 
-p::first-letter {
+p:first-of-type::first-letter {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   line-height: 1;
 }
