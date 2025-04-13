@@ -4,6 +4,14 @@ body {
   font-size: larger;
 }
 
+h1 {
+  font-weight: normal;
+  margin: 1em 0 0 1px;
+  padding: .5em 0 .5em 3px;
+  border-left: .5em solid purple;
+  background-color: #efe9f3;
+}
+
 p {
   color: #0c2a44;
   line-height: 1.5;
