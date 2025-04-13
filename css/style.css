@@ -73,3 +73,31 @@ p:first-of-type::first-letter {
 .misterio:hover {
   color: red;;
 }
+
+span {
+  border: 2px solid salmon;
+  background-color: #f3e9f0;
+  padding: .5em;
+  margin: 1em;
+}
+
+div {
+  border: 2px solid seagreen;
+  background-color: #eef3e9;
+  padding: .5em;
+  margin: 1em;
+}
+
+a {
+  background-color: salmon;
+  color: white;
+  text-decoration: none;
+  border-radius: .35em;
+  margin: 1em;
+  padding: .35em;
+}
+
+.inbl {
+  display: inline-block;
+  color: blue;
+}
