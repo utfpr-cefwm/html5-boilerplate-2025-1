@@ -101,3 +101,26 @@ a {
   display: inline-block;
   color: blue;
 }
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex aside {
+  flex: 1 300px;
+  text-align: center;
+}
+
+.flex main {
+  flex: 10 500px;
+}
+
+@media screen and (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+  }
+  .flex aside {
+    flex-basis: auto;
+  }
+}
